@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Tailwind test</title>
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+    <div class="group relative min-w-[315px] max-w-[440px] w-full h-[380px] bg-white border border-gray-200 rounded-lg shadow-md">
+        <div class="relative bg-gray-300 group-hover:max-h-24 h-52 p-2">
+            <button class="absolute top-2 right-2 bg-white text-black text-xs px-2 py-1 rounded">button</button>
+        </div>
+        
+       
+        <div class="p-6">
+            <div class="flex justify-between items-center pb-2 border-b border-[white] group-hover:border-gray-200 ">
+                <div>
+                    <h6 class="text-gray-400 font-light text-[14px] leading-[20px] tracking-[0.5%] mb-1">Subheader</h6>
+                    <h3 class="text-gray-900 font-normal text-[20px] leading-[24.2px] tracking-[0.5%]">Header</h3>
+                </div>
+                <p class="text-gray-700 font-normal text-[18px] leading-[21.78px] tracking-[0.5%] text-right">
+                    Text
+                </p>
+            </div>
+            
+            
+            <div class="mt-2 group-hover:block hidden">
+                <p class="flex justify-between text-gray-400 font-light text-[14px] leading-[20px] tracking-[0.5%] py-1">
+                    Text <a href="#" class="text-gray-900 text-[14px] leading-[20px] tracking-[0.5%]">Link</a>
+                </p>
+                <p class="flex justify-between text-gray-400 font-light text-[14px] leading-[20px] tracking-[0.5%] py-1">
+                    Text <a href="#" class="text-gray-900 text-[14px] leading-[20px] tracking-[0.5%]">Link</a>
+                </p>
+                <p class="flex justify-between text-gray-400 font-light text-[14px] leading-[20px] tracking-[0.5%] py-1">
+                    Text <a href="#" class="text-gray-900 text-[14px] leading-[20px] tracking-[0.5%]">Link</a>
+                </p>
+                <p class="flex justify-between text-gray-400 font-light text-[14px] leading-[20px] tracking-[0.5%] py-1">
+                    Text <a href="#" class="text-gray-900 text-[14px] leading-[20px] tracking-[0.5%]">Link</a>
+                </p>
+            </div>
+
+
+            <button class="w-full mt-2 bg-gray-500 text-white py-3 rounded-lg font-semibold text-[15px] leading-[18.15px] tracking-[0.5%] text-center">
+                Button
+            </button>
+            <p class="text-center mt-1 text-gray-500 text-xs font-light text-[12px] leading-[16px] tracking-[0.5%]">Sub text</p>
+        </div>
+    </div>
+</body>
+</html>
